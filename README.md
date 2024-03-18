@@ -29,4 +29,3 @@ This dataset simulates transactions and employee information for a fictional com
 - Order_Status: Status of the order (Ordered, Cancelled, In Progress, Hold, Invoiced, Shipped).
 - Transaction_Date: Date of the transaction.
 - Order_Status_Date: Date of the order status update.
-- Is_Fraudulent: Indicates if the transaction is flagged as fraudulent.
