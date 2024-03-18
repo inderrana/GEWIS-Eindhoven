@@ -1,4 +1,4 @@
-Data Description:
+<span style="color:green;">Data Description:</span>
 
 This dataset simulates transactions and employee information for a fictional company. It includes the following tables:
 
@@ -28,7 +28,8 @@ This dataset simulates transactions and employee information for a fictional com
 - Transaction_Date: Date of the transaction.
 - Order_Status_Date: Date of the order status update.
 
-** Internal Controls
+<span style="color:green;">Internal Controls</span>
+
 
 Segregation of Duties (SOD):
 The Segregation of Duties (SOD) check ensures that critical tasks are divided among different individuals to prevent fraud and errors.
