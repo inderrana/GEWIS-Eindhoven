@@ -1,4 +1,4 @@
-<span style="color:green;">Data Description:</span>
+**Data Description:**
 
 This dataset simulates transactions and employee information for a fictional company. It includes the following tables:
 
@@ -28,7 +28,7 @@ This dataset simulates transactions and employee information for a fictional com
 - Transaction_Date: Date of the transaction.
 - Order_Status_Date: Date of the order status update.
 
-<span style="color:green;">Internal Controls</span>
+**Internal Controls:**
 
 
 Segregation of Duties (SOD):
