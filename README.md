@@ -1,6 +1,4 @@
-
-
-Data Description:
+**Data Description:**
 
 This dataset simulates transactions and employee information for a fictional company. It includes the following tables:
 
@@ -29,3 +27,26 @@ This dataset simulates transactions and employee information for a fictional com
 - Order_Status: Status of the order (Ordered, Cancelled, In Progress, Hold, Invoiced, Shipped).
 - Transaction_Date: Date of the transaction.
 - Order_Status_Date: Date of the order status update.
+
+**Internal Controls:**
+
+
+Segregation of Duties (SOD):
+The Segregation of Duties (SOD) check ensures that critical tasks are divided among different individuals to prevent fraud and errors.
+
+For every transaction:
+- The approver cannot be the creator if there is a bank account change.
+- The order receiver cannot be the creator.
+
+Approval Matrix:
+
+The Approval Matrix ensures that appropriate approval levels are followed based on transaction characteristics.
+
+Approval Matrix:
+- If the discount is less than 10%, no approval is required.
+- If the discount is between 10% and 19%, a manager or higher approval is required.
+- If the discount is 20% or more, a senior manager or higher approval is needed.
+
+Sales Reversals :
+
+The Sales Reversals are the transactions that may indicate potential sales reversals, where an order is created towards the end of the month and then cancelled shortly after (for example: to achieve sales targets).
