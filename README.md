@@ -22,7 +22,7 @@ This dataset simulates transactions and employee information for a fictional com
 - Discount: Discount applied to the transaction.
 - Approval_Level: Level of approval required for the transaction (Manager, Senior Manager, Employee).
 - Bank_Account_Change: Indicates if there was a change in the bank account.
-- Order_Receiver: Identifier of the employee who received the order.
+- Order_Receiver: Identifier of the customer who receives the order.
 - Customer_ID: Identifier of the customer involved in the transaction.
 - Order_Status: Status of the order (Ordered, Cancelled, In Progress, Hold, Invoiced, Shipped).
 - Transaction_Date: Date of the transaction.
